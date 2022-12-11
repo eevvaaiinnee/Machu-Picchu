@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+#menuu {
+  background-color: #eeeeee;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#menuu a {
+  color: #222222;
+}
+
+#menuu a:hover {
+  text-decoration: underline;
+}
+
+.contenttx a {
+  color: #222222;
+}
+
+.contenttx a:hover {
+  text-decoration: underline;
+}
+
+#leftt {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+}
+
+#rightt {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 25px;
+}
+
+
+
+#fadee {
+  animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+.backgroundd {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ height: 100vh;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#imgbackgroundd {
+  background-image: url(IMG/background.jpg);
+}
+
+.titlee {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 45px;
+}
+
+.contentt {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  line-height: 2;
+}
+
+.contenttx {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  line-height: 2;
+}
+
+#locationn {
+  height: 100vh;
+  width: 100vw;
+}
+
+#imgdiscoveryy {
+  background-image: url(IMG/discovery.jpg);
+}
+
+#imgterracee {
+  background-image: url(IMG/terrace.jpg);
+}
+
+#imgbuildingg {
+  background-image: url(IMG/building.jpg);
+}
